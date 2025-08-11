@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+
+.column{
+    float: left;
+    width: 33.3%;
+    padding: 5px;
+} 
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+p{
+    color: rgb(0, 0, 0);
+}
